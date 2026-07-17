@@ -3,12 +3,13 @@
 - Paper: Dynamic Programming for Epistemic Uncertainty in Markov Decision Processes
 - OpenReview: `oUv02QKUxG`
 - arXiv: `2602.03381`
-- Status: local evidence complete; the source, claim pages, Trackio logbook,
-  repository, and independent audit still need final adversarial review before
-  this can enter the Hugging Face publication queue.
+- Status: local reproduction complete and pushed to public GitHub at commit
+  `06d465e`. Trackio pages, tags, pinned conclusion, captured relative commands,
+  and portable artifact metadata are complete. Hugging Face publication is
+  queued behind the account Space quota.
 
 ## Next action
 
-Create the Trackio logbook, capture the exact relative audit/test commands,
-then perform a final source/secret/hygiene review.  Publication remains blocked
-until the campaign's Hugging Face Space quota is available.
+When the account quota clears, publish to `DineshAI/oUv02QKUxG`, verify the
+public Space, tags, and bucket artifacts, then move the coordinator row to
+`under_verdict`.
