@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Dynamic Programming for Epistemic Uncertainty in MDPs",
+  "emoji": "🎯",
+  "space_id": null,
+  "paper": {
+    "arxiv_id": "2602.03381",
+    "openreview_id": "oUv02QKUxG"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-oUv02QKUxG"
+  ],
+  "updated_at": "2026-07-17T08:43:38+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - Dynamic Programming for Epistemic Uncertainty in MDPs",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "claim-1-stationary-optimality",
+        "title": "Claim 1 — Stationary optimality",
+        "file": "pages/claim-1-stationary-optimality/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-2-iteration-convergence",
+        "title": "Claim 2 — Iteration convergence",
+        "file": "pages/claim-2-iteration-convergence/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-3-theorem-4-4-classification",
+        "title": "Claim 3 — Theorem 4.4 classification",
+        "file": "pages/claim-3-theorem-4-4-classification/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-4-theorem-4-5-w1-classification",
+        "title": "Claim 4 — Theorem 4.5 W1 classification",
+        "file": "pages/claim-4-theorem-4-5-w1-classification/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-5-common-risk-incompatibility",
+        "title": "Claim 5 — Common-risk incompatibility",
+        "file": "pages/claim-5-common-risk-incompatibility/page.md",
+        "children": []
+      },
+      {
+        "slug": "methods",
+        "title": "Methods",
+        "file": "pages/methods/page.md",
+        "children": []
+      },
+      {
+        "slug": "negative-controls",
+        "title": "Negative controls",
+        "file": "pages/negative-controls/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 1461,
+  "revision": "1784277818188539170"
+}

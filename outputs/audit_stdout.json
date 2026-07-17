@@ -1,0 +1,629 @@
+{
+  "paper": "Dynamic Programming for Epistemic Uncertainty in Markov Decision Processes",
+  "openreview_id": "oUv02QKUxG",
+  "arxiv": "2602.03381",
+  "claim_1_stationary_optimality": {
+    "instances": 36,
+    "max_error_bellman_vs_static": 2.69562150378988e-13,
+    "stationary_policies_exhausted_per_instance": [
+      4,
+      8,
+      16
+    ],
+    "history_dependent_prefix_policies_exhausted": 4096,
+    "max_history_prefix_advantage": 2.5002222514558525e-13,
+    "invalid_non_product_control_history_advantage": 0.10555355069155281
+  },
+  "claim_2_iteration_convergence": {
+    "value_iteration_bound_max_slack": 0.0,
+    "policy_iteration_monotone": true
+  },
+  "claim_3_theorem_4_4_classification": {
+    "static_expectation_bellman_residual": 0.08333333333333348,
+    "robust_and_optimistic_positive_controls": "covered by 24 exact rectangular instances",
+    "four_atom_spectral_risks_exhausted": 35,
+    "static_bellman_survivors": [
+      "0,0,0,1",
+      "1,0,0,0"
+    ],
+    "spectral_static_residuals": {
+      "0,0,0,1": 8.881784197001252e-16,
+      "0,0,0.25,0.75": 0.0806330688289596,
+      "0,0,0.5,0.5": 0.1612661376579183,
+      "0,0,0.75,0.25": 0.2418992064868779,
+      "0,0,1,0": 0.3225322753158366,
+      "0,0.25,0,0.75": 0.34678787584481086,
+      "0,0.25,0.25,0.5": 0.3469105453960234,
+      "0,0.25,0.5,0.25": 0.3470332149472368,
+      "0,0.25,0.75,0": 0.3471558844984497,
+      "0,0.5,0,0.5": 0.4623838344597472,
+      "0,0.5,0.25,0.25": 0.4626291735621735,
+      "0,0.5,0.5,0": 0.4628745126645999,
+      "0,0.75,0,0.25": 0.3467878758448104,
+      "0,0.75,0.25,0": 0.34715588449845014,
+      "0,1,0,0": 0.34466539064611446,
+      "0.25,0,0,0.75": 0.3403256241915511,
+      "0.25,0,0.25,0.5": 0.34044829374276453,
+      "0.25,0,0.5,0.25": 0.34057096329397707,
+      "0.25,0,0.75,0": 0.34069363284519016,
+      "0.25,0.25,0,0.5": 0.4580756666909075,
+      "0.25,0.25,0.25,0.25": 0.4583210057933339,
+      "0.25,0.25,0.5,0": 0.4585663448957601,
+      "0.25,0.5,0,0.25": 0.3446337919603901,
+      "0.25,0.5,0.25,0": 0.34500180061402985,
+      "0.25,0.75,0,0": 0.25849904298458587,
+      "0.5,0,0,0.5": 0.4537674989220678,
+      "0.5,0,0.25,0.25": 0.4540128380244942,
+      "0.5,0,0.5,0": 0.4542581771269205,
+      "0.5,0.25,0,0.25": 0.3424797080759707,
+      "0.5,0.25,0.25,0": 0.34284771672961023,
+      "0.5,0.5,0,0": 0.17233269532305726,
+      "0.75,0,0,0.25": 0.3403256241915509,
+      "0.75,0,0.25,0": 0.3406936328451906,
+      "0.75,0.25,0,0": 0.08616634766152864,
+      "1,0,0,0": 4.440892098500626e-16
+    },
+    "resampled_expectation_independent_matrix_error": 9.43689570931383e-15
+  },
+  "claim_4_theorem_4_5_w1_classification": {
+    "resampled_expectation_independent_matrix_error": 9.43689570931383e-15,
+    "static_expectation_witness_residual": 0.08333333333333348,
+    "static_spectral_survivors": [
+      "0,0,0,1",
+      "1,0,0,0"
+    ]
+  },
+  "claim_5_common_risk_incompatibility": {
+    "independent_additivity_residuals": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "cvar": 3.0
+    },
+    "proposition_4_3_algebra_survivors": [
+      "0,0,0,1",
+      "0.25,0.25,0.25,0.25",
+      "1,0,0,0"
+    ],
+    "spectral_additivity_residuals": {
+      "0,0,0,1": 0.0,
+      "0,0,0.25,0.75": 1.5,
+      "0,0,0.5,0.5": 3.0,
+      "0,0,0.75,0.25": 4.5,
+      "0,0,1,0": 6.0,
+      "0,0.25,0,0.75": 1.5,
+      "0,0.25,0.25,0.5": 0.0,
+      "0,0.25,0.5,0.25": 1.5,
+      "0,0.25,0.75,0": 3.0,
+      "0,0.5,0,0.5": 3.0,
+      "0,0.5,0.25,0.25": 1.5,
+      "0,0.5,0.5,0": 0.0,
+      "0,0.75,0,0.25": 4.5,
+      "0,0.75,0.25,0": 3.0,
+      "0,1,0,0": 6.0,
+      "0.25,0,0,0.75": 0.0,
+      "0.25,0,0.25,0.5": 1.5,
+      "0.25,0,0.5,0.25": 3.0,
+      "0.25,0,0.75,0": 4.5,
+      "0.25,0.25,0,0.5": 1.5,
+      "0.25,0.25,0.25,0.25": 0.0,
+      "0.25,0.25,0.5,0": 1.5,
+      "0.25,0.5,0,0.25": 3.0,
+      "0.25,0.5,0.25,0": 1.5,
+      "0.25,0.75,0,0": 4.5,
+      "0.5,0,0,0.5": 0.0,
+      "0.5,0,0.25,0.25": 1.5,
+      "0.5,0,0.5,0": 3.0,
+      "0.5,0.25,0,0.25": 1.5,
+      "0.5,0.25,0.25,0": 0.0,
+      "0.5,0.5,0,0": 3.0,
+      "0.75,0,0,0.25": 0.0,
+      "0.75,0,0.25,0": 1.5,
+      "0.75,0.25,0,0": 1.5,
+      "1,0,0,0": 0.0
+    },
+    "spectral_multiplicativity_residuals": {
+      "0,0,0,1": 0.0,
+      "0,0,0.25,0.75": 5.5,
+      "0,0,0.5,0.5": 11.0,
+      "0,0,0.75,0.25": 16.5,
+      "0,0,1,0": 22.0,
+      "0,0.25,0,0.75": 4.228124999999999,
+      "0,0.25,0.25,0.5": 1.2718750000000014,
+      "0,0.25,0.5,0.25": 6.7718750000000005,
+      "0,0.25,0.75,0": 12.271875000000001,
+      "0,0.5,0,0.5": 5.9125000000000005,
+      "0,0.5,0.25,0.25": 0.41250000000000053,
+      "0,0.5,0.5,0": 5.0875,
+      "0,0.75,0,0.25": 5.053125,
+      "0,0.75,0.25,0": 0.44687500000000013,
+      "0,1,0,0": 1.65,
+      "0.25,0,0,0.75": 3.8156250000000007,
+      "0.25,0,0.25,0.5": 1.684375000000001,
+      "0.25,0,0.5,0.25": 7.184375000000001,
+      "0.25,0,0.75,0": 12.684375000000001,
+      "0.25,0.25,0,0.5": 5.500000000000001,
+      "0.25,0.25,0.25,0.25": 0.0,
+      "0.25,0.25,0.5,0": 5.5,
+      "0.25,0.5,0,0.25": 4.640625,
+      "0.25,0.5,0.25,0": 0.859375,
+      "0.25,0.75,0,0": 1.2375,
+      "0.5,0,0,0.5": 5.0874999999999995,
+      "0.5,0,0.25,0.25": 0.41249999999999964,
+      "0.5,0,0.5,0": 5.9125,
+      "0.5,0.25,0,0.25": 4.228125,
+      "0.5,0.25,0.25,0": 1.271875,
+      "0.5,0.5,0,0": 0.8249999999999998,
+      "0.75,0,0,0.25": 3.815625,
+      "0.75,0,0.25,0": 1.684375,
+      "0.75,0.25,0,0": 0.4125,
+      "1,0,0,0": 0.0
+    }
+  },
+  "rows": [
+    {
+      "risk": "min",
+      "seed": 0,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 94,
+      "optimal_policy": [
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 1,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 90,
+      "optimal_policy": [
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 2,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 92,
+      "optimal_policy": [
+        0,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 3,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 4,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        0,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 5,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 90,
+      "optimal_policy": [
+        0,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 0,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 1,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 84,
+      "optimal_policy": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 2,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 3,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 4,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 90,
+      "optimal_policy": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 5,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 92,
+      "optimal_policy": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 6,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 7,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 91,
+      "optimal_policy": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 0,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 94,
+      "optimal_policy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 1,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 90,
+      "optimal_policy": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 2,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 90,
+      "optimal_policy": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "risk": "min",
+      "seed": 3,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 77,
+      "optimal_policy": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 0,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 1,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 97,
+      "optimal_policy": [
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 2,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 91,
+      "optimal_policy": [
+        0,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 3,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 97,
+      "optimal_policy": [
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 4,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 97,
+      "optimal_policy": [
+        0,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 5,
+      "states": 2,
+      "scenarios": 16,
+      "stationary_policies": 4,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 0,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 98,
+      "optimal_policy": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 1,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 2,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 3,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 4,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 5,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 91,
+      "optimal_policy": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 6,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 7,
+      "states": 3,
+      "scenarios": 64,
+      "stationary_policies": 8,
+      "value_iteration_steps": 93,
+      "optimal_policy": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 0,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 97,
+      "optimal_policy": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 1,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 94,
+      "optimal_policy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 2,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 94,
+      "optimal_policy": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "risk": "max",
+      "seed": 3,
+      "states": 4,
+      "scenarios": 256,
+      "stationary_policies": 16,
+      "value_iteration_steps": 96,
+      "optimal_policy": [
+        1,
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

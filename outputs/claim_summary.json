@@ -1,0 +1,49 @@
+{
+  "claim_1_stationary_optimality": {
+    "instances": 36,
+    "max_error_bellman_vs_static": 2.69562150378988E-13,
+    "stationary_policies_exhausted_per_instance": [
+      4,
+      8,
+      16
+    ],
+    "history_dependent_prefix_policies_exhausted": 4096,
+    "max_history_prefix_advantage": 2.5002222514558525E-13,
+    "invalid_non_product_control_history_advantage": 0.10555355069155281
+  },
+  "claim_2_iteration_convergence": {
+    "value_iteration_bound_max_slack": 0.0,
+    "policy_iteration_monotone": true
+  },
+  "claim_3_theorem_4_4_classification": {
+    "static_expectation_bellman_residual": 0.08333333333333348,
+    "robust_and_optimistic_positive_controls": "covered by 24 exact rectangular instances",
+    "four_atom_spectral_risks_exhausted": 35,
+    "static_bellman_survivors": [
+      "0,0,0,1",
+      "1,0,0,0"
+    ],
+    "resampled_expectation_independent_matrix_error": 9.43689570931383E-15
+  },
+  "claim_4_theorem_4_5_w1_classification": {
+    "resampled_expectation_independent_matrix_error": 9.43689570931383E-15,
+    "static_expectation_witness_residual": 0.08333333333333348,
+    "static_spectral_survivors": [
+      "0,0,0,1",
+      "1,0,0,0"
+    ]
+  },
+  "claim_5_common_risk_incompatibility": {
+    "independent_additivity_residuals": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "cvar": 3.0
+    },
+    "proposition_4_3_algebra_survivors": [
+      "0,0,0,1",
+      "0.25,0.25,0.25,0.25",
+      "1,0,0,0"
+    ]
+  }
+}
