@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this reproduction audit, please cite the paper and this repository."
+type: software
+title: "ICML 2026 — Dynamic Programming for Epistemic MDPs"
+version: "1.0.0"
+date-released: 2026-08-15
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-dynamic-programming-epistemic-mdp"
+url: "https://github.com/MachineLearning-Nerd/icml26-dynamic-programming-epistemic-mdp"
+authors:
+  - family-names: "MachineLearning-Nerd"
+    given-names: "MachineLearning-Nerd"
+    affiliation: "Independent reproduction"
+keywords:
+  - "ICML 2026"
+  - "Markov decision processes"
+  - "epistemic uncertainty"
+  - "dynamic programming"
+  - "risk measures"
+  - "reproducibility"
+preferred-citation:
+  type: article
+  title: "Dynamic Programming for Epistemic Uncertainty in Markov Decision Processes"
+  authors:
+    - family-names: "Benyamine"
+      given-names: "Axel"
+    - family-names: "Grand-Clément"
+      given-names: "Julien"
+    - family-names: "Petrik"
+      given-names: "Marek"
+    - family-names: "Jordan"
+      given-names: "Michael I."
+    - family-names: "Durmus"
+      given-names: "Alain"
+  year: 2026
+  journal: "Proceedings of the 43rd International Conference on Machine Learning"
+  url: "https://arxiv.org/abs/2602.03381"

@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "claim": "Official Claim 2 / Proposition 4.2",
+  "exact_fraction_checks": 3900,
+  "independent_dag_valid": true,
+  "mutation_controls": {
+    "duplicate_step_rejected": true,
+    "forward_dependency_rejected": true,
+    "missing_policy_rate_rejected": true
+  },
+  "primary_all_passed": true,
+  "scale_checks": {
+    "available": false
+  }
+}

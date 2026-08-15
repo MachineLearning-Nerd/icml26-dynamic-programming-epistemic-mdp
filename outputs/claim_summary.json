@@ -17,7 +17,7 @@
   },
   "claim_3_theorem_4_4_classification": {
     "static_expectation_bellman_residual": 0.08333333333333348,
-    "robust_and_optimistic_positive_controls": "covered by 24 exact rectangular instances",
+    "robust_and_optimistic_positive_controls": "covered by 36 exact rectangular instances",
     "four_atom_spectral_risks_exhausted": 35,
     "static_bellman_survivors": [
       "0,0,0,1",
